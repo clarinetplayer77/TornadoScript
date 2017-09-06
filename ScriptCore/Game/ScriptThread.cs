@@ -18,7 +18,7 @@ namespace ScriptCore
         /// </summary>
         private static ScriptVarCollection _vars;
 
-        protected ScriptThread()
+        Public ScriptThread()
         {
             _extensions = new ScriptExtensionPool();
             _vars = new ScriptVarCollection();
